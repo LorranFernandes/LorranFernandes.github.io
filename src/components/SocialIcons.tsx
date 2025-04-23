@@ -23,7 +23,7 @@ const SocialIcons: React.FC = () => {
     },
     {
       name: 'Currículo',
-      url: '/curriculo.pdf', // Altere para o caminho do seu arquivo PDF
+      url: '/LorranParreira-Curriculo.pdf',
       icon: 'bi bi-file-earmark-pdf',
       color: '#e63946',
       target: '_blank'
@@ -41,6 +41,7 @@ const SocialIcons: React.FC = () => {
           className="btn btn-outline-secondary me-3"
           style={{ color: social.color }}
           aria-label={social.name}
+          download={social.name === 'Currículo' ? 'LorranFernandes-Curriculo.pdf' : undefined}
         >
           <i className={social.icon}></i> {social.name}
         </a>
