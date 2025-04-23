@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div className="container">
-        <Link className="navbar-brand" to="/">DevBackend</Link>
+        <Link className="navbar-brand" to="/">Dev Back-end</Link>
         <button 
           className="navbar-toggler" 
           type="button" 
