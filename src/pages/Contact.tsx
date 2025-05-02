@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
   }
 
   return (
-    <section id="contact" className="py-5 bg-light">
+    <section id="contact" className="py-5">
       <div className="container py-5">
         <SectionTitle title="Contato" subtitle="Entre em contato comigo" />
         
@@ -37,8 +37,8 @@ const Contact: React.FC = () => {
             
             <div className="mt-5 text-center">
               <h5>Ou entre em contato diretamente:</h5>
-              <a href="mailto:contato@devbackend.com" className="btn btn-outline-primary mt-2">
-                contato@devbackend.com
+              <a href="mailto:lorranfparreira@gmail.com" className="btn btn-outline-primary mt-2">
+                lorranfparreira@gmail.com
               </a>
             </div>
           </div>

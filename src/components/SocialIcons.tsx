@@ -7,25 +7,25 @@ const SocialIcons: React.FC = () => {
       name: 'GitHub',
       url: 'https://github.com/LorranFernandes',
       icon: 'bi bi-github',
-      color: '#333'
+      color: '#7ed07c'
     },
     {
       name: 'LinkedIn',
       url: 'https://www.linkedin.com/in/lorranparreira/',
       icon: 'bi bi-linkedin',
-      color: '#0077b5'
+      color: '#7ed07c'
     },
     {
       name: 'E-mail',
       url: 'mailto:lorranfparreira@gmail.com?subject=Contato%20via%20Portfólio',
       icon: 'bi bi-envelope-fill',
-      color: '#d44638'
+      color: '#7ed07c'
     },
     {
       name: 'Currículo',
       url: '/LorranParreira-Curriculo.pdf',
       icon: 'bi bi-file-earmark-pdf',
-      color: '#e63946',
+      color: '#7ed07c',
       target: '_blank'
     }
   ]
