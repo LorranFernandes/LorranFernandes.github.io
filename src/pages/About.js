@@ -37,7 +37,7 @@ export default function About() {
     <section id="about" className="py-5">
       <div className="container py-5">
         <SectionTitle title="Sobre Mim" subtitle="Conheça mais sobre meu trabalho" />
-        <div className="row">
+        <div className="row g-5">
           <div className="col-lg-6">
             <p className="lead">
               Sou graduando no 6º período de Sistemas de Informação no CEFET/RJ, com foco em desenvolvimento back-end.

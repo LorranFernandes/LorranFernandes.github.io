@@ -25,6 +25,7 @@ export default function Navbar() {
     }
   }
 
+
   const addTab = () => {
     // encontra o próximo item da lista original que ainda não está visível
     const nextTab = initialTabs.find((tab) => !tabs.some((t) => t.id === tab.id))
@@ -37,13 +38,18 @@ export default function Navbar() {
     <nav
   className="navbar fixed-top"
   style={{
-    backgroundImage: "url('/images/sand.png'), #2b2b2b", 
+    backgroundImage: "url('/images/sand.png')", 
     borderBottom: '0',
     opacity: 0.8,
     padding: '0.5rem 1rem 0',
   }}
 >
-  <div className="d-flex">
+  <div className="d-flex"
+    style={{
+      overflowX: 'auto',
+      whiteSpace: 'nowrap',    // IE/Edge antigo
+    }}
+  >
     {tabs.map((tab, index) => (
       <div
         key={tab.id}
@@ -51,7 +57,7 @@ export default function Navbar() {
         onClick={() => scrollTo(tab.id)}
         role="button"
         style={{
-          backgroundColor: activeTab === tab.id ? '#0f0d0d' : '#2b2b2b',
+          backgroundColor: activeTab === tab.id ? '#0f0d0d' : '',
           color: '#fff',
           padding: '12px 20px 12px 25px',
           borderTopLeftRadius: '8px',
@@ -67,7 +73,7 @@ export default function Navbar() {
         }}
         onMouseLeave={(e) => {
           if (activeTab !== tab.id) e.currentTarget.style.backgroundColor =
-            activeTab === tab.id ? '#000' : '#2b2b2b'
+            activeTab === tab.id ? '#000' : ''
         }}
       >
         <span style={{ flexGrow: 1, textAlign: 'left' }}>{tab.label}</span>

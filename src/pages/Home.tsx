@@ -9,7 +9,7 @@ export default function Home() {
   <div className="container py-5 position-relative" style={{ zIndex: 1 }}>
     <div className="row align-items-center">
       <div className="col-lg-6">
-        <h1 className="display-4 fw-bold mb-3">Lorran Fernandes<span className="blinking-cursor">|</span></h1>
+        <h1 className="display-4 fw-bold mb-3">Lorran Fernandes</h1>
         <h2 className="mb-4">
           Desenvolvedor Full Stack | Java | Spring Boot | Graduando em Sistemas de Informação CEFET/RJ
         </h2>
