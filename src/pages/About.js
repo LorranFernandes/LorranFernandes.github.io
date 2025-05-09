@@ -10,6 +10,9 @@ import {
 } from 'react-icons/si'
 import { VscVscode } from "react-icons/vsc";
 
+import { MdViewKanban } from "react-icons/md";
+import { DiScrum } from "react-icons/di";
+
 export default function About() {
   const skills = [
     { icon: <SiTypescript size={50} />, name: 'TypeScript' },
@@ -25,6 +28,12 @@ export default function About() {
     { icon: <FaDocker size={50} />, name: 'Docker' },
     { icon: <SiSwagger size={50} />, name: 'Swagger' },
   ]
+
+  const softskills = [
+    { icon: <MdViewKanban size={50} />, name: 'Kanban' },
+    { icon: <DiScrum size={50} />, name: 'Scrum' },
+  ]
+  
 
   const tools = [
     { icon: <VscVscode size={50} />, name: 'VS Code' },
@@ -52,10 +61,19 @@ export default function About() {
           </div>
 
           <div className="col-lg-6">
-            <h4 className="mb-3">Minhas Skills</h4>
+            <h4 className="mb-3">Hard Skills</h4>
             <div className="d-flex flex-wrap justify-content-center gap-5 mb-4">
               {skills.map((skill, index) => (
                 <span key={index} className="text-primary" title={skill.name}>
+                  {skill.icon}
+                </span>
+              ))}
+            </div>
+
+            <h4 className="mb-3">Soft Skills</h4>
+            <div className="d-flex flex-wrap justify-content-center gap-5 mb-4">
+              {softskills.map((skill, index) => (
+                <span key={index} className="text-success" title={skill.name}>
                   {skill.icon}
                 </span>
               ))}
