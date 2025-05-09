@@ -26,9 +26,7 @@ function App() {
           <Projects />
         </AnimatedSection>
         
-        <AnimatedSection id="contact" >
-          <Contact />
-        </AnimatedSection>
+        
       </main>
       <Footer />
     </div>

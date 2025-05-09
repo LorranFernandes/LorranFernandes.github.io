@@ -103,6 +103,7 @@ main {
   position: relative;
 }
 
+
 #home {
   padding-top: 100px !important;
 }
@@ -185,7 +186,8 @@ footer {
 
 /* ===== RESPONSIVO ===== */
 @media (max-width: 992px) {
-  
+
+
   .animated-section {
     padding: 60px 0;
     margin: -0.7px;

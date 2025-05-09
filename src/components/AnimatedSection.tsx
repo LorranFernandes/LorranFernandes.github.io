@@ -39,7 +39,7 @@ export default function AnimatedSection({ children, id, className = '' }: Animat
       id={id}
       ref={sectionRef}
       className={`animated-section ${className}`}
-      initial="hidden"
+      initial="visible"
       animate={controls}
       variants={{
         hidden: { opacity: 0, y: 20 },
@@ -47,6 +47,7 @@ export default function AnimatedSection({ children, id, className = '' }: Animat
       }}
       transition={{ duration: 0.6 }}
     >
+      
       <div className="container">
         {children}
       </div>

@@ -5,7 +5,6 @@ export default function Navbar() {
     { id: 'home', label: 'Home' },
     { id: 'about', label: 'Sobre' },
     { id: 'projects', label: 'Projetos' },
-    { id: 'contact', label: 'Contato' },
   ]
 
   const [tabs, setTabs] = useState(initialTabs.slice(0, 2)) // exibe só algumas inicialmente (opcional)

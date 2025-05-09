@@ -35,12 +35,6 @@ const Contact: React.FC = () => {
               <button type="submit" className="btn btn-primary">Enviar Mensagem</button>
             </form>
             
-            <div className="mt-5 text-center">
-              <h5>Ou entre em contato diretamente:</h5>
-              <a href="mailto:lorranfparreira@gmail.com" className="btn btn-outline-primary mt-2">
-                lorranfparreira@gmail.com
-              </a>
-            </div>
           </div>
         </div>
       </div>

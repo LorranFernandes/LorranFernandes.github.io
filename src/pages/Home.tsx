@@ -11,7 +11,7 @@ export default function Home() {
       <div className="col-lg-6">
         <h1 className="display-4 fw-bold mb-3">Lorran Fernandes</h1>
         <h2 className="mb-4">
-          Desenvolvedor Full Stack | Java | Spring Boot | Graduando em Sistemas de Informação CEFET/RJ
+          Desenvolvedor Full Stack | Graduando em Sistemas de Informação CEFET/RJ
         </h2>
         <p className="lead mb-4">
           Construo soluções robustas e escaláveis para o seu negócio.
