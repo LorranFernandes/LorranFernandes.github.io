@@ -6,7 +6,7 @@ import {
 } from 'react-icons/fa'
 import {
   SiSpringboot, SiMysql, SiPostgresql, SiJavascript, SiTypescript,
-  SiSwagger, SiIntellijidea, SiPostman, SiApachemaven
+  SiSwagger, SiIntellijidea, SiPostman, SiApachemaven, SiJunit5
 } from 'react-icons/si'
 import { VscVscode } from "react-icons/vsc";
 
@@ -15,14 +15,14 @@ import { DiScrum } from "react-icons/di";
 
 export default function About() {
   const skills = [
-    { icon: <SiTypescript size={50} />, name: 'TypeScript' },
-    { icon: <SiJavascript size={50} />, name: 'JavaScript' },
-    { icon: <FaNodeJs size={50} />, name: 'Node Js' },
-    { icon: <FaVuejs size={50} />, name: 'Vue Js' },
     { icon: <FaJava size={50} />, name: 'Java' },
     { icon: <SiSpringboot size={50} />, name: 'Spring Boot' },
     { icon: <SiMysql size={50} />, name: 'MySQL' },
     { icon: <SiPostgresql size={50} />, name: 'PostgreSQL' },
+    { icon: <SiJunit5 size={50} />, name: 'JUnit' },
+    { icon: <SiTypescript size={50} />, name: 'TypeScript' },
+    { icon: <SiJavascript size={50} />, name: 'JavaScript' },
+    { icon: <FaNodeJs size={50} />, name: 'Node Js' },
     { icon: <FaPhp size={50} />, name: 'PHP' },
     { icon: <FaPython size={50} />, name: 'Python' },
     { icon: <FaDocker size={50} />, name: 'Docker' },
@@ -55,7 +55,7 @@ export default function About() {
             </p>
             <p>
               Sou uma pessoa ativa, apaixonada por esportes e que valoriza momentos com amigos e família.
-              Atualmente tenho me dedicado especialmente à linguagem TypeScript e Java,
+              Atualmente tenho me dedicado especialmente à linguagem Java e TypeScript,
               buscando construir APIs seguras e bem estruturadas.
             </p>
           </div>
