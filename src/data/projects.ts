@@ -10,19 +10,12 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/LorranFernandes/library-api"
   },
   {
-    name: "Controle Financeiro Frontend",
+    name: "Sistema de Gestão de Avisos",
     description:
-    "Interface web desenvolvida em Vue 3 com TypeScript para gerenciamento de despesas. Permite lançamentos do tipo parcelado, periódico e cheque, com formulário dinâmico, tabela interativa, e comunicação com API REST via Axios.",
-    technologies: ["Vue 3", "TypeScript", "Axios", "Vite"],
-    githubUrl: "https://github.com/LorranFernandes/ControleFinanceiroFrontend",
-    liveUrl: "https://controle-financeiro-frontend-zeta.vercel.app/"
-  },
-  {
-    name: "Controle Financeiro Backend",
-    description:
-    "API RESTful desenvolvida com Node.js, Express e MySQL para controle de despesas. Inclui atualização de status de pagamento e testes automatizados com Jest.",
-    technologies: ["TypeScript", "Node.js", "Express", "MySQL", "Jest"],
-    githubUrl: "https://github.com/LorranFernandes/ControleFinanceiroBackend"
+      "Aplicação Full Stack para gerenciamento e exibição de avisos em tempo real. O Frontend foi construído em TypeScript puro, enquanto o Backend em PHP implementa segurança avançada com criptografia SHA-512 (Salt & Pepper) e controle de sessões.",
+    technologies: ["PHP 8", "TypeScript", "MySQL", "Playwright", "Vitest", "PHPStan",],
+    githubUrl: "https://github.com/LorranFernandes/acme-avisos",
+    liveUrl: "https://adaptable-manifestation-production.up.railway.app/"
   },
   {
     name: "Kings Quest - Jogo em JavaScript",
